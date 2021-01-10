@@ -1,0 +1,214 @@
+@import  url("https://fonts.googleapis.com/css?family=Poppins");
+
+ body {
+    font-family : 'Poppins' ;
+ }
+
+ header > div {
+     padding: 0 25px;
+     display: flex;
+     border-bottom: 1px solid rgba(211, 211, 211, 0.829);
+     justify-content: space-between;
+     align-items: center;
+    
+   }
+
+   nav {
+     width: 600px;
+   }
+
+   nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   nav a {
+     text-decoration: none;
+     color: black;
+   }
+
+   .blackHeart {
+     width: 20px;
+     margin-right: 1rem;
+   }
+
+   .npmLogo {
+       width: 50px;
+   }
+
+   .searchBar {
+      display: flex;
+      height: 30px;
+      outline: none;
+      padding: 3px;
+      width: 100%;
+   }
+
+   .Search {
+    display: flex;
+    justify-content: space-between;  
+  }
+
+
+   .searchLens {
+    width: 30px;
+   }
+
+   .button1 {
+    background-color: red;
+    height: 31px;
+    color: white;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
+    border: none;
+}
+
+.button3 {
+    background-color: white;
+    width: 100px;
+    height: 31px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 0;
+
+}
+
+.button2 {
+ background-color: rgb(255, 255, 255);
+ width: 100px;
+ height: 31px;
+ border-width: 1;
+ border-style:none;
+ margin-left: 10px;
+ border-style:solid;
+ border-color: gray;
+}
+
+   h1 {
+     font-size: 70px;
+     text-align: center;
+     font-weight: bold;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 60px;
+     margin-bottom: 30;;
+   }
+
+   #text {
+       text-align: center;
+       font-size: 20px;
+   }
+
+   #first-bloc-info {
+     display: flex;
+     height: 600px;
+     justify-content: space-between;
+     flex-direction: column;
+     text-align: center;
+     background-color: rgba(232,217,217,.3);
+     background-size: 1.5em;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .link-btn-1 { 
+     background-color: #FB3B49;
+     color: white;
+     font-size: 1.5em;
+     letter-spacing: 1px;
+     text-align: center;
+     text-decoration: none;
+     margin: 20px;
+     display: inline-block;
+     width: 200px;
+     padding: 10px 10px;
+     box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+
+   }
+
+   .link-btn-2 {
+     background-color: white;
+     color: black;
+     font-size: 1.5em;
+     letter-spacing: 1px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     width: 200px;
+     padding: 10px 10px;
+    
+     margin: 20px;
+  
+   }
+
+   .link-btn-3 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    box-shadow: 8px 8px 0 #AAAAAA;
+    display: inline-block;
+    width: 200px;
+    
+   }
+
+   #hexagon {
+     margin-top: 25px;
+     margin-bottom: 100px;
+   }
+
+   .triangleHexagon {
+       display: flex;
+       width: 300px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+   h2 {
+     background-color: rgba(255,204,53,.4);
+     color: black;
+     width: 45%;
+     font-size: 25px;
+     text-align: center;
+     font-weight: bold;
+     margin-left: auto;
+     margin-right: auto; 
+     font-style: italic;
+   }
+
+   h3 {
+   color: #FB3B49;
+   }
+
+   #text-2 {
+     text-align: center;
+     font-size: 15px;
+   }
+
+
+   #final-info {
+     display: flex;
+     width: 100%;
+   } 
+
+
+   .pippo {text-align: center;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+   }
+
+   .npm-info img{
+     width: 50px;
+   }
+
+   .barra {width: 100%;
+    background: #eeeeee;
+    height: 30px;
+  }
+
+  .a2-bottoni {
+   margin-bottom: 140px;
+  }
